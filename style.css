@@ -120,10 +120,11 @@ button:hover{transform:scale(1.1);}
 
 /* Slideshow */
 .slideshow{
-    width:60%;
+    width:90%;
     margin:20px auto;
 }
 .slideshow img{
+    height:547px;
     width:100%;
     border-radius:20px;
     display:none;
