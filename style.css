@@ -121,6 +121,7 @@ button:hover{transform:scale(1.1);}
 /* Slideshow */
 .slideshow{
     width:90%;
+    height:70%;
     margin:20px auto;
 }
 .slideshow img{
