@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        /* Confetti – makes them fall from the top */
+
+    </style>
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="/music/Nviiri the Storyteller - Birthday Song ft. Sauti Sol, Bensoul & Khaligraph Jones (Official Video) [XTh2rsVuDWs].mp3" type="audio/mpeg">
+</audio>
+
+<canvas id="fireworks"></canvas>
+
+<!-- PAGE 1 -->
+<div id="page1">
+<h1 class="gold-text">🎉 Happy Birthday Dad as You Turn a Year Older 🎉</h1>
+<p>Enter your age to continue</p>
+<input type="number" id="ageInput" placeholder="Enter age">
+<br>
+<button onclick="checkAge()">Enter Celebration</button>
+<p id="error" style="color:red;"></p>
+</div>
+
+<!-- PAGE 2 -->
+<div id="page2" class="hidden page2">
+
+<h1 class="gold-text">🎂 Happy Turning 55! 🎂</h1>
+
+<div class="family-scene">
+    <div class="child left-child">👦</div>
+    <div class="child right-child">👧</div>
+    <div class="father">👨</div>
+     <div class="gift-cake hidden" id="giftCake">🎂</div>
+    <div class="sparkle hidden" id="sparkle">✨✨✨</div>
+</div>
+
+<div class="slideshow">
+<img src="/pictures/pic1.jpeg" class="active">
+<img src="/pictures/WhatsApp Image 2026-02-15 at 13.22.14.jpeg">
+<img src="/pictures/pic4.jpeg" alt="">
+<img src="/pictures/pic5.jpeg" alt="">
+<img src="/pictures/pic6.jpeg" alt="">
+</div>
+
+<p style="width:70%;margin:auto;">
+We are proud that you're a year older.  
+May God continue to bless you with a healthy life  
+and many more blessings ahead.
+</p>
+
+<div class="footer">❤️ From your family ❤️</div>
+
+<div class="balloon" style="left:10%;">🎈</div>
+<div class="balloon" style="left:30%;animation-delay:2s;">🎈</div>
+<div class="balloon" style="left:60%;animation-delay:4s;">🎈</div>
+<div class="balloon" style="left:85%;animation-delay:1s;">🎈</div>
+
+</div>
+</body>
+</html>
